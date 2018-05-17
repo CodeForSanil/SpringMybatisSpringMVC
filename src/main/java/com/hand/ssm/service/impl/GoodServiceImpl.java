@@ -21,8 +21,7 @@ public class GoodServiceImpl implements GoodsService{
 
 	@Override
 	public Goods getGood(long goodId) {
-		Goods goods = goodsDao.getGoodByPrimaryKey(goodId);
-		return goods;
+		return goodsDao.getGoodByPrimaryKey(goodId);
 	}
 
 }
