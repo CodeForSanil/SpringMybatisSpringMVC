@@ -1,5 +1,8 @@
 package com.hand.ssm.dto;
 
+/**
+ * @author wangz
+ */
 public class Goods {
 
 	private long id;
